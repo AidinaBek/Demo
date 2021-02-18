@@ -16,6 +16,7 @@ public class checkoutOverviewPage {
     private List<SelenideElement> verifiedItems = $$(By.xpath("//div[@class='inventory_item_name']"));
 
     public List<SelenideElement> getVerifiedItems() {
+
         return verifiedItems;
     }
 

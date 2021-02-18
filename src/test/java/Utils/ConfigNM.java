@@ -13,7 +13,6 @@ public class ConfigNM {
     static {
 
         String path = "resources.properties";
-
         try {
             FileInputStream file = new FileInputStream(path);
             properties = new Properties();

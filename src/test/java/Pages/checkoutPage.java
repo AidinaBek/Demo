@@ -6,6 +6,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class checkoutPage {
 
+
     private SelenideElement firstName = $(By.xpath("//input[@id='first-name']"));
     private SelenideElement lastName = $(By.xpath("//input[@id='last-name']"));
     private SelenideElement zipCode = $(By.xpath("//input[@id='postal-code']"));

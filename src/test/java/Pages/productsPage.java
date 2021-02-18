@@ -11,6 +11,7 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class productsPage {
 
+
     private List<SelenideElement> allPrices = $$(By.xpath("//div[contains(@class,'inventory_item_price')]"));
     private List<SelenideElement> addToCart = $$(By.xpath("//button[contains(text(),'ADD TO CART')]"));
     private List<SelenideElement> allItems = $$(By.xpath("//div[@class='inventory_item_name']"));

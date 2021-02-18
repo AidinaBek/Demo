@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class shoppingCart {
 
+
     private List<SelenideElement> items = $$(By.xpath("//div[@class='inventory_item_name']"));
     private SelenideElement shoppingCartLogo = $(By.xpath("//div[@class='subheader']"));
     private SelenideElement removeButton = $(By.xpath("(//button[contains(text(),'REMOVE')])[1]"));

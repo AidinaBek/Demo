@@ -32,6 +32,7 @@ public class globalStepDef {
     checkoutOverviewPage checkoutOverviewPage = new checkoutOverviewPage();
     SoftAssert softAssert = new SoftAssert();
 
+
     @Given("Me,as an Authenticated guest is on the Products page")
     public void me_as_an_Authenticated_guest_is_on_the_Products_page() throws InterruptedException {
         loginPage.navigateToProductsPage();

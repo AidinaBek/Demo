@@ -36,6 +36,7 @@ public class NMDriver {
                 driver =new ChromeDriver();
                 throw new IllegalStateException("Unexpected value: " + browser);
         }
+
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);

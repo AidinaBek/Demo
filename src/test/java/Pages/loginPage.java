@@ -15,6 +15,7 @@ import static com.codeborne.selenide.Selenide.refresh;
 
 public class loginPage {
 
+
     private SelenideElement login = $(By.xpath("//input[@id='user-name']"));
     private SelenideElement password = $(By.xpath("//input[@id='password']"));
     private SelenideElement loginButton = $(By.xpath("//input[@id='login-button']"));
